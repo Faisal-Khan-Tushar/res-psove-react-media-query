@@ -1,0 +1,11 @@
+.service-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+p {
+  color: blue;
+}
+p::before {
+  content: "I love you";
+}
