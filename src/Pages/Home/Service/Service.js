@@ -4,7 +4,7 @@ const Service = ({service}) => {
   //const {service}=props;
   const {name,price,img}=service;
   return (
-    <div className="service">
+    <div className="service ">
  
      <img src={img} alt=""/>
       <h3>{name}</h3>
