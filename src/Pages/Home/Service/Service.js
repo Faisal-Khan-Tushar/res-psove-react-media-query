@@ -9,7 +9,7 @@ const Service = ({service}) => {
      <img src={img} alt=""/>
       <h3>{name}</h3>
       <h5>{price}</h5>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, incidunt?</p>
+      <p className="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, incidunt?</p>
      </div>
     
   );
