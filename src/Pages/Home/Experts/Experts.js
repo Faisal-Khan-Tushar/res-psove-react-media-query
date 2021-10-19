@@ -4,6 +4,7 @@ import mechanic2 from '../../../images/mechanic/mechanic-2.jpg';
 import mechanic3 from '../../../images/mechanic/mechanic-3.jpg';
 import mechanic4 from '../../../images/mechanic/mechanic-4.jpg';
 import Expert from '../Expert/Expert';
+
 const experts=[
   {
     img:mechanic1,
@@ -28,7 +29,7 @@ const experts=[
 ]
 const Experts = () => {
   return (
-    <div className="container">
+    <div id="experts" className="container">
       <h2 className="text-primary mt-5">Our experts</h2>
       <div  className="row">
  
